@@ -1,0 +1,162 @@
+@media screen and (max-width: 767px) {
+  .login {
+    background-color: black;
+    width: 100vw;
+  }
+  .login .img {
+    background-image: url('../img/login/bg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .login .form-box {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .login .form-box .form {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(44, 43, 44, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgba(236, 234, 234, 0.5);
+    display: flex;
+    flex-direction: row;
+  }
+  .login .form-box .form .btn-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 768px) {
+  .login {
+    background-color: white;
+    width: 100vw;
+  }
+  .login .img {
+    background-image: url('../img/login/bg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .login .form-box {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+  }
+  .login .form-box .form {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(44, 43, 44, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgba(236, 234, 234, 0.5);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  .login .form-box .form .inp-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .login .form-box .form .btn-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+  .login .img {
+    background-image: url('../img/login/bg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 75vw;
+    height: 100vh;
+  }
+  .login .form-box {
+    height: 100vh;
+    width: 25vw;
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .login .form-box .form {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  .login .form-box .form .inp-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .login .form-box .form .btn-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
